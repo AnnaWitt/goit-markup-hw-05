@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -14,6 +15,7 @@
     rel="stylesheet" />
   <title>Studio</title>
 </head>
+
 <body>
   <header class="top-line">
     <div class="container header ">
@@ -26,13 +28,21 @@
         </ul>
       </nav>
       <ul class="contact-list">
-        <li><a class="contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="contact" href="tel:+48111111111">+48 111 111 111</a></li>
+        <li>
+          <a href="mailto:info@devstudio.com" class="contact"><svg class="contact-icon" width="16" height="12">
+              <use href="./images/icons.svg#icon-envelope"></use>
+            </svg>info@devstudio.com</a>
+        </li>
+        <li>
+          <a href="tel:+48111111111" class="contact"><svg class="contact-icon" width="10" height="16">
+              <use href="./images/icons.svg#icon-smartphone"></use>
+            </svg>+48 111 111 111</a>
+        </li>
       </ul>
     </div>
   </header>
   <main>
-    <section class="hero section">
+    <section class=" hero section">
       <div class="hero-content">
         <h1 class="primary-heading">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
         <button class="order-button" type="button">Zamów usługe</button>
@@ -42,6 +52,12 @@
       <div class="container">
         <ul class=second-section-list>
           <li class=second-section-item>
+            <div class="lorem-icons">
+              <svg width="70" height="70">
+                <use href="./images/icons.svg#icon-antenna-1">
+                </use>
+              </svg>
+            </div>
             <h3 class="second-section-headings">LOREM IPSUM</h3>
             <p class="second-section-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
@@ -49,6 +65,12 @@
             </p>
           </li>
           <li class=second-section-item>
+            <div class="lorem-icons">
+              <svg width="70" height="70">
+                <use href="./images/icons.svg#icon-clock-1">
+                </use>
+              </svg>
+            </div>
             <h3 class="second-section-headings">LOREM IPSUM</h3>
             <p class="second-section-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
@@ -56,6 +78,12 @@
             </p>
           </li>
           <li class="second-section-item">
+            <div class="lorem-icons">
+              <svg width="70" height="70">
+                <use href="./images/icons.svg#icon-diagram-1">
+                </use>
+              </svg>
+            </div>
             <h3 class="second-section-headings">LOREM IPSUM</h3>
             <p class="second-section-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
@@ -63,6 +91,12 @@
             </p>
           </li>
           <li class="second-section-item">
+            <div class="lorem-icons">
+              <svg width="70" height="70">
+                <use href="./images/icons.svg#icon-astronaut-1">
+                </use>
+              </svg>
+            </div>
             <h3 class="second-section-headings">LOREM IPSUM</h3>
             <p class="second-section-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
@@ -92,45 +126,256 @@
     <section class="fourth-section section">
       <div class="container">
         <h2 class="fourth-section-heading">Nasz Zespół</h2>
-        <ul class="fourth-section-items">
-          <li>
+        <ul class="fourth-section-list">
+          <li class="fourth-section-item">
             <img src="images/jdoe.jpg" alt="Uśmiechnięty mężczyzna w okularach i bordowej koszuli" width="270"
               height="260" />
             <h3 class="team-member-name">John Doe</h3>
             <p class="team-member-position">Product Designer</p>
+            <div class="social-media-links-box">
+              <ul class="social-media-list">
+                <li>
+                  <div class=icon-box>
+                    <a href="#"><svg class="social-icon-team" width="20" height="20">
+                        <use href="./images/icons.svg#icon-instagram-2"></use>
+                      </svg></a>
+                    <div>
+                </li>
+                <li>
+                  <div class="icon-box">
+                    <a href="#"><svg class="social-icon-team" width="20" height="20">
+                        <use href="./images/icons.svg#icon-twitter-11"></use>
+                      </svg></a>
+                  </div>
+                </li>
+                <li>
+                  <div class="icon-box">
+                    <a href="#"><svg class="social-icon-team" width="20" height="20">
+                        <use href="./images/icons.svg#icon-facebook-1"></use>
+                      </svg></a>
+                  </div>
+                </li>
+                <li>
+                  <div class="icon-box">
+                    <a href="#"><svg class="social-icon-team" width="20" height="20">
+                        <use href="./images/icons.svg#icon-linkedin-1"></use>
+                      </svg></a>
+                  </div>
+                </li>
+              </ul>
+            </div>
           </li>
-          <li>
+          <li class="fourth-section-item">
             <img src="images/jdoe1.jpg" alt="Uśmiechnięta blondynka w okularach" width="270" height="260" />
             <h3 class="team-member-name">John Doe</h3>
             <p class="team-member-position">Frontend Developer</p>
+            <div class="social-media-links-box">
+              <ul class="social-media-list">
+                <li>
+                  <div class=icon-box>
+                    <a href="#"><svg class="social-icon-team" width="20" height="20">
+                        <use href="./images/icons.svg#icon-instagram-2"></use>
+                      </svg></a>
+                    <div>
+                </li>
+                <li>
+                  <div class="icon-box">
+                    <a href="#"><svg class="social-icon-team" width="20" height="20">
+                        <use href="./images/icons.svg#icon-twitter-11"></use>
+                      </svg></a>
+                  </div>
+                </li>
+                <li>
+                  <div class="icon-box">
+                    <a href="#"><svg class="social-icon-team" width="20" height="20">
+                        <use href="./images/icons.svg#icon-facebook-1"></use>
+                      </svg></a>
+                  </div>
+                </li>
+                <li>
+                  <div class="icon-box">
+                    <a href="#"><svg class="social-icon-team" width="20" height="20">
+                        <use href="./images/icons.svg#icon-linkedin-1"></use>
+                      </svg></a>
+                  </div>
+                </li>
+              </ul>
+            </div>
           </li>
-          <li>
+          <li class="fourth-section-item">
             <img src="images/jdoe2.jpg" alt="Uśmiechnięty członek zespołu" width="270" height="260" />
             <h3 class="team-member-name">John Doe</h3>
             <p class="team-member-position">Marketing</p>
+            <div class="social-media-links-box">
+              <ul class="social-media-list">
+                <li>
+                  <div class=icon-box>
+                    <a href="#"><svg class="social-icon-team" width="20" height="20">
+                        <use href="./images/icons.svg#icon-instagram-2"></use>
+                      </svg></a>
+                    <div>
+                </li>
+                <li>
+                  <div class="icon-box">
+                    <a href="#"><svg class="social-icon-team" width="20" height="20">
+                        <use href="./images/icons.svg#icon-twitter-11"></use>
+                      </svg></a>
+                  </div>
+                </li>
+                <li>
+                  <div class="icon-box">
+                    <a href="#"><svg class="social-icon-team" width="20" height="20">
+                        <use href="./images/icons.svg#icon-facebook-1"></use>
+                      </svg></a>
+                  </div>
+                </li>
+                <li>
+                  <div class="icon-box">
+                    <a href="#"><svg class="social-icon-team" width="20" height="20">
+                        <use href="./images/icons.svg#icon-linkedin-1"></use>
+                      </svg></a>
+                  </div>
+                </li>
+              </ul>
+            </div>
           </li>
-          <li>
+          <li class="fourth-section-item">
             <img src="images/jdoe3.jpg" alt="Uśmiechnięty członek zespołu w okularach" width="270" height="260" />
             <h3 class="team-member-name">John Doe</h3>
             <p class="team-member-position">Ul Designer</p>
+            <div class="social-media-links-box">
+              <ul class="social-media-list">
+                <li>
+                  <div class=icon-box>
+                    <a href="#"><svg class="social-icon-team" width="20" height="20">
+                        <use href="./images/icons.svg#icon-instagram-2"></use>
+                      </svg></a>
+                    <div>
+                </li>
+                <li>
+                  <div class="icon-box">
+                    <a href="#"><svg class="social-icon-team" width="20" height="20">
+                        <use href="./images/icons.svg#icon-twitter-11"></use>
+                      </svg></a>
+                  </div>
+                </li>
+                <li>
+                  <div class="icon-box">
+                    <a href="#"><svg class="social-icon-team" width="20" height="20">
+                        <use href="./images/icons.svg#icon-facebook-1"></use>
+                      </svg></a>
+                  </div>
+                </li>
+                <li>
+                  <div class="icon-box">
+                    <a href="#"><svg class="social-icon-team" width="20" height="20">
+                        <use href="./images/icons.svg#icon-linkedin-1"></use>
+                      </svg></a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+        </ul>
+      </div>
+    </section>
+    <section class=section>
+      <div class="container">
+        <h2 class="fifth-section-heading">Nasi klienci</h2>
+        <ul class="clients-list">
+          <li class="clients-item">
+            <a href="#" target="blank"><svg class="client-icon" width="106" height="60">
+                <use href="./images/icons.svg#icon-logo-client-1">
+                </use>
+              </svg></a>
+          </li>
+          <li class="clients-item">
+            <a href="#" target="blank"><svg class="client-icon" width="106" height="60">
+                <use href="./images/icons.svg#icon-logo-client-2">
+                </use>
+              </svg></a>
+          </li>
+          <li class="clients-item">
+            <a href="#" target="blank"><svg class="client-icon" width="106" height="60">
+                <use href="./images/icons.svg#icon-logo-client-3">
+                </use>
+              </svg></a>
+          </li>
+          <li class="clients-item">
+            <a href="#"><svg class="client-icon" width="106" height="60">
+                <use href="./images/icons.svg#icon-logo-client-4">
+                </use>
+              </svg></a>
+          </li>
+          <li class="clients-item">
+            <a href="#"><svg class="client-icon" width="106" height="60">
+                <use href="./images/icons.svg#icon-logo-client-5">
+                </use>
+              </svg></a>
+          </li>
+          <li class="clients-item">
+            <a href="#"><svg class="client-icon" width="106" height="60">
+                <use href="./images/icons.svg#icon-logo-client-6">
+                </use>
+              </svg></a>
           </li>
         </ul>
       </div>
     </section>
   </main>
+
   <footer class="footer-bg company-info">
-    <div class="container">
-      <a class="logo" href="#"><span class="blue">Web</span><span class="white">Studio</span></a>
-      <address class="adress-info">
-        <ul class="company-contacts">
-          <li>
-            <p class="localization-info">m. Warszawa, Aleje Jerozolimskie 21</p>
-          </li>
-          <li><a class="contact-info" href="mailto:info@example.com">info@example.com</a></li>
-          <li><a class="contact-info" href="tel:+48111111111">+48 111 111 111</a></li>
-        </ul>
-      </address>
-    </div>
+    <div class=" footer-content container">
+      <div class="address-box">
+        <a class="logo" href="#"><span class="blue">Web</span><span class="white">Studio</span></a>
+        <address class="adress-info">
+          <ul class="company-contacts">
+            <li>
+              <p class="localization-info">m. Warszawa, Aleje Jerozolimskie 21</p>
+            </li>
+            <li><a class="contact-info" href="mailto:info@example.com">info@example.com</a></li>
+            <li><a class="contact-info" href="tel:+48111111111">+48 111 111 111</a></li>
+          </ul>
+        </address>
+      </div>
+      <div class="social-box">
+        <h3 class="footer-social-heading">DOŁĄCZ DO NAS
+        </h3>
+        <div>
+          <ul class="social-media-list">
+            <li>
+              <div class=icon-box>
+                <a href="#"><svg class="social-icon" width="20" height="20">
+                    <use href="./images/icons.svg#icon-instagram-2"></use>
+                  </svg></a>
+                <div>
+            </li>
+            <li>
+              <div class="icon-box">
+                <a href="#"><svg class="social-icon" width="20" height="20">
+                    <use href="./images/icons.svg#icon-twitter-11"></use>
+                  </svg></a>
+              </div>
+            </li>
+            <li>
+              <div class="icon-box">
+                <a href="#"><svg class="social-icon" width="20" height="20">
+                    <use href="./images/icons.svg#icon-facebook-1"></use>
+                  </svg></a>
+              </div>
+            </li>
+            <li>
+              <div class="icon-box">
+                <a href="#"><svg class="social-icon" width="20" height="20">
+                    <use href="./images/icons.svg#icon-linkedin-1"></use>
+                  </svg></a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
   </footer>
 </body>
+
 </html>
