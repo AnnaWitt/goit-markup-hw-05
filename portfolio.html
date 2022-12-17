@@ -29,10 +29,20 @@
         </ul>
       </nav>
       <ul class="contact-list">
-        <li><a class="contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="contact" href="tel:+48111111111">+48 111 111 111</a></li>
+        <li>
+          <a href="mailto:info@devstudio.com" class="contact"><svg class="contact-icon" width="16" height="12">
+              <use href="./images/icons.svg#icon-envelope"></use>
+            </svg>info@devstudio.com</a>
+        </li>
+        <li>
+          <a href="tel:+48111111111" class="contact"><svg class="contact-icon" width="10" height="16">
+              <use href="./images/icons.svg#icon-smartphone"></use>
+            </svg>+48 111 111 111</a>
+        </li>
       </ul>
     </div>
+  </header>
+  </div>
   </header>
   <main>
     <section class="section">
@@ -47,7 +57,7 @@
       </div>
       <div class="projects-grid container">
         <ul class="portfolio-grid">
-          <li>
+          <li class="portfolio-grid-shadow">
             <img src="images/technocrackweb.jpg" alt="wizytówka strony internetowej z 3 zdjęciami ludzi" width="370"
               height="294" />
             <div class="border-box">
@@ -55,7 +65,7 @@
               <p class="project-item-name">Strona internetowa</p>
             </div>
           </li>
-          <li>
+          <li class="portfolio-grid-shadow">
             <img src="images/dizajngraphic.jpg" alt="starcie o piłkę 2 koszykarzy przeciwnych drużyn" width="370"
               height="294" />
             <div class="border-box">
@@ -63,28 +73,28 @@
               <p class="project-item-name">Dizajn</p>
             </div>
           </li>
-          <li>
+          <li class="portfolio-grid-shadow">
             <img src="images/restaurantlogo.jpg" alt="czarne logo restauracji na tle rekina" width="370" height="294" />
             <div class="border-box">
               <h3 class="project-title">Restauracja Seafood</h3>
               <p class="project-item-name">Aplikacja</p>
             </div>
           </li>
-          <li>
+          <li class="portfolio-grid-shadow">
             <img src="images/headphones.jpg" alt="czarne słuchawki bezprzewodowe" width="370" height="294" />
             <div class="border-box">
               <h3 class="project-title">Projekt Prime</h3>
               <p class="project-item-name">Marketing</p>
             </div>
           </li>
-          <li>
+          <li class="portfolio-grid-shadow">
             <img src="images/boxes.jpg" alt="2 różne pudełka" width="370" height="294" />
             <div class="border-box">
               <h3 class="project-title">Projekt Boxes</h3>
               <p class="project-item-name">Aplikacja</p>
             </div>
           </li>
-          <li>
+          <li class="portfolio-grid-shadow">
             <img src="images/pcmonitor.jpg" alt="duży prostokątny monitor do komputera z czarnym wyświetlaczem"
               width="370" height="294" />
             <div class="border-box">
@@ -92,7 +102,7 @@
               <p class="project-item-name">Strona internetowa</p>
             </div>
           </li>
-          <li>
+          <li class="portfolio-grid-shadow">
             <img src="images/magazine.jpg" alt="otwarte czasopismo ze zdjęciami ludzi na stronach" width="370"
               height="294" />
             <div class="border-box">
@@ -100,7 +110,7 @@
               <p class="project-item-name">Dizajn</p>
             </div>
           </li>
-          <li>
+          <li class="portfolio-grid-shadow">
             <img src="images/labeltag.jpg" alt="Biała zawieszka z czarnym drukowanym napisem LABELTAG" width="370"
               height="294" />
             <div class="border-box">
@@ -108,7 +118,7 @@
               <p class="project-item-name">Marketing</p>
             </div>
           </li>
-          <li>
+          <li class="portfolio-grid-shadow">
             <img src="images/notebook.jpg" alt="dłonie piszące na laptopie" width="370" height="294" />
             <div class="border-box">
               <h3 class="project-title">Growing Business</h3>
@@ -120,18 +130,55 @@
     </section>
   </main>
   <footer class="footer-bg company-info">
-    <div class="container">
-      <a class="logo" href="#"><span class="blue">Web</span><span class="white">Studio</span></a>
-      <address class="adress-info">
-        <ul class="company-contacts">
-          <li>
-            <p class="localization-info">m. Warszawa, Aleje Jerozolimskie 21</p>
-          </li>
-          <li><a class="contact-info" href="mailto:info@example.com">info@example.com</a></li>
-          <li><a class="contact-info" href="tel:+48111111111">+48 111 111 111</a></li>
-        </ul>
-      </address>
-    </div>
+    <div class=" footer-content container">
+      <div class="address-box">
+        <a class="logo" href="#"><span class="blue">Web</span><span class="white">Studio</span></a>
+        <address class="adress-info">
+          <ul class="company-contacts">
+            <li>
+              <p class="localization-info">m. Warszawa, Aleje Jerozolimskie 21</p>
+            </li>
+            <li><a class="contact-info" href="mailto:info@example.com">info@example.com</a></li>
+            <li><a class="contact-info" href="tel:+48111111111">+48 111 111 111</a></li>
+          </ul>
+        </address>
+      </div>
+      <div class="social-box">
+        <h2 class="footer-social-heading">DOŁĄCZ DO NAS
+          </h3>
+          <div>
+            <ul class="social-media-list">
+              <li>
+                <div class=icon-box>
+                  <a href="#"><svg class="social-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-instagram-2"></use>
+                    </svg></a>
+                  <div>
+              </li>
+              <li>
+                <div class="icon-box">
+                  <a href="#"><svg class="social-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-twitter-11"></use>
+                    </svg></a>
+                </div>
+              </li>
+              <li>
+                <div class="icon-box">
+                  <a href="#"><svg class="social-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-facebook-1"></use>
+                    </svg></a>
+                </div>
+              </li>
+              <li>
+                <div class="icon-box">
+                  <a href="#"><svg class="social-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-linkedin-1"></use>
+                    </svg></a>
+                </div>
+              </li>
+            </ul>
+          </div>
+      </div>
   </footer>
 </body>
 
