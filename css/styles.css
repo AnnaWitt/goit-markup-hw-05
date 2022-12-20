@@ -366,10 +366,6 @@ color:var(--tenth-color);
 .company-contacts .contact-info:active {
   color: var(--second-color);
 }
-.company-contacts .localization-info:hover,
-.company-contacts .localization-info:focus {
-  color: var(--second-color);
-}
 .projects-list {
   margin-bottom: 50px;
   width: 580px;
