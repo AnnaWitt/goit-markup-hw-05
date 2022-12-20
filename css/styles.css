@@ -110,6 +110,8 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 .contact-icon {
   margin-right: 10px;
@@ -271,23 +273,30 @@ body {
   text-align: center;
   padding-top: 10px;
 }
-.social-media-links-box {
+.social-media-team-box {
   display: flex;
-  flex-direction: row;
   gap: 10px;
   margin-top: 16px;
   margin-bottom: 30px;
   justify-content: center;
 }
+.social-icon-team-link{
+  display:block;
+  padding:12px;
+  background:var(--tenth-color);
+  border-radius:50%;
+  color:var(--tweelth-color);
+}
 .social-icon-team {
-  fill: var(--tweelth-color);
+display: block;
+fill: currentColor;
 }
-.social-icon-team:hover,
-.social-icon-team:focus {
-  fill: var(--tenth-color);
-  background-color: var(--second-color);
-  cursor: pointer;
+.social-icon-team-link:hover,
+.social-icon-team-link:focus{
+background:var(--second-color);
+color:var(--tenth-color);
 }
+
 .fifth-section-heading {
   color: var(--first-color);
   font-weight: 700;
@@ -301,35 +310,26 @@ body {
 .clients-list {
   list-style-type: none;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
 }
-
-.clients-item {
+.clients-list-link {
   padding: 16px 32px;
-  border: 1px solid var(--tweelth-color);
+  outline: 1px solid var(--tweelth-color);
   border-radius: 4px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.clients-item:not(:last-child) {
-  margin-right: 30px;
-}
-.clients-item:hover,
-.clients-item:focus {
-  border-color: var(--second-color);
+  display: inline-block;
+  cursor: pointer;
+  color: var(--tweelth-color);
 }
 .client-icon {
-  fill: var(--tweelth-color);
+  display: block;
+  fill: currentColor;
 }
-
-.client-icon:hover,
-.client-icon:focus {
-  fill: var(--second-color);
+.clients-list-link:hover,
+.clients-list-link:focus {
+  color: var(--second-color);
+  outline-color: var(--second-color);
 }
-
 .footer-bg {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -365,11 +365,10 @@ body {
 .company-contacts .contact-info:active {
   color: var(--second-color);
 }
-.localization-info:hover,
-.localization-info:focus {
+.company-contacts .localization-info:hover,
+.company-contacts .localization-info:focus {
   color: var(--second-color);
 }
-
 .projects-list {
   margin-bottom: 50px;
   width: 580px;
@@ -427,10 +426,7 @@ body {
   line-height: 1.87;
   letter-spacing: 0.03em;
 }
-.localization-info:hover {
-  background-color: var(--second-color);
-  color: var(--tenth-color);
-}
+
 .filter-item button:hover,
 .filter-item button:focus {
   background-color: var(--second-color);
@@ -462,19 +458,22 @@ body {
   list-style-type: none;
   gap: 10px;
 }
-.icon-box {
-  background: rgba(255, 255, 255, 0.1);
-  width: 44px;
-  height: 44px;
+
+.social-footer-link {
+  display: block;
+  background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
-  justify-content: center;
+  color: var(--tenth-color);
   padding: 12px;
+  cursor: pointer;
 }
 .social-icon {
-  fill: var(--tenth-color);
+  display: block;
+  fill: currentColor;
 }
-.icon-box:hover,
-.icon-box:focus {
-  background-color: var(--second-color);
-  cursor: pointer;
+
+.social-footer-link:hover, 
+.social-footer-link:focus{
+  color:var(--tenth-color);
+  background-color:var(--second-color);
 }
