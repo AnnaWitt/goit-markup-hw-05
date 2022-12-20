@@ -9,8 +9,8 @@
   --eigth-color: #ececec;
   --ningth-color: #e5e5e5;
   --tenth-color: #ffffff;
-  --eleventh-color: ##ffffff99;
-  --tweelth-color: #afb1b8;
+  --eleventh-color: #ffffff99;
+  --twelfth-color: #afb1b8;
 }
 h1,
 h2,
@@ -41,6 +41,7 @@ body {
   margin: auto;
   padding: 0 15px;
 }
+
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
@@ -285,7 +286,7 @@ body {
   padding:12px;
   background:var(--tenth-color);
   border-radius:50%;
-  color:var(--tweelth-color);
+  color:var(--twelfth-color);
 }
 .social-icon-team {
 display: block;
@@ -315,11 +316,11 @@ color:var(--tenth-color);
 }
 .clients-list-link {
   padding: 16px 32px;
-  outline: 1px solid var(--tweelth-color);
+  outline: 1px solid var(--twelfth-color);
   border-radius: 4px;
   display: inline-block;
   cursor: pointer;
-  color: var(--tweelth-color);
+  color: var(--twelfth-color);
 }
 .client-icon {
   display: block;
@@ -454,7 +455,6 @@ color:var(--tenth-color);
 }
 .social-media-list {
   display: flex;
-  flex-direction: row;
   list-style-type: none;
   gap: 10px;
 }
