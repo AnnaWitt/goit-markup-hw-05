@@ -211,6 +211,10 @@ body {
   visibility: hidden;
   opacity: 0;
 }
+
+.backdrop.is-hidden .modal {
+  transform: translate(-50%, -50%) scale(0.4);
+}
 .modal {
   position: absolute;
   top: 50%;
